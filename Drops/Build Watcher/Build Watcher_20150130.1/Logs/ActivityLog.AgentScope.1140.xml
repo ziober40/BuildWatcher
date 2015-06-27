@@ -1,0 +1,1725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ActivityLog.xsl"?>
+<BuildInformation>
+  <BuildInformationNode Id="05096cf2-78cd-41f4-a56f-59f0166e8a7c" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="3" />
+    <InformationField Name="ActivityType" Value="Sequence" />
+    <InformationField Name="DisplayName" Value="Initialize Variables" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2237676Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.2887678Z" />
+  </Fields>
+<Children><BuildInformationNode Id="9f410632-92c2-457b-b9d4-613ae1ad6099" ParentId="05096cf2-78cd-41f4-a56f-59f0166e8a7c" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="4" />
+    <InformationField Name="ActivityType" Value="GetBuildAgent" />
+    <InformationField Name="DisplayName" Value="Get the Agent" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2247668Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.2257678Z" />
+  </Fields>
+<Children><BuildInformationNode Id="49b26a7d-591d-4b6d-a22c-e9e874e9a9a0" ParentId="9f410632-92c2-457b-b9d4-613ae1ad6099" Type="ActivityOutput">
+  <Fields>
+    <InformationField Name="Result" Value="Hosted Build Agent (vstfs:///Build/Agent/1140)" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="f2d28d4b-445b-4a9b-9b36-b570190eb4d0" ParentId="05096cf2-78cd-41f4-a56f-59f0166e8a7c" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="5" />
+    <InformationField Name="ActivityType" Value="GetBuildDirectory" />
+    <InformationField Name="DisplayName" Value="Get the Build Directory" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2427676Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.2777653Z" />
+  </Fields>
+<Children><BuildInformationNode Id="4dd071b2-7eda-44cb-b3a3-6fe2ee0f9c58" ParentId="f2d28d4b-445b-4a9b-9b36-b570190eb4d0" Type="ActivityOutput">
+  <Fields>
+    <InformationField Name="Result" Value="C:\a" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="2c034c91-62ae-4816-b7b1-6b8e338e772e" ParentId="05096cf2-78cd-41f4-a56f-59f0166e8a7c" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="17" />
+    <InformationField Name="ActivityType" Value="Assign&lt;String&gt;" />
+    <InformationField Name="DisplayName" Value="Initialize Workspace Name" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2807652Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.2807652Z" />
+  </Fields>
+<Children><BuildInformationNode Id="9a446d32-c549-49cd-8733-87b057eb2058" ParentId="2c034c91-62ae-4816-b7b1-6b8e338e772e" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Value" Value="4_1140_main1" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="cd3db8c8-80a4-4bab-a641-51cb83600c28" ParentId="2c034c91-62ae-4816-b7b1-6b8e338e772e" Type="ActivityOutput">
+  <Fields>
+    <InformationField Name="To" Value="4_1140_main1" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="39fa1dab-deb6-4c68-a69b-9d15d17af175" ParentId="05096cf2-78cd-41f4-a56f-59f0166e8a7c" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="18" />
+    <InformationField Name="ActivityType" Value="Assign&lt;String&gt;" />
+    <InformationField Name="DisplayName" Value="Initialize Sources Directory" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2827677Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.2827677Z" />
+  </Fields>
+<Children><BuildInformationNode Id="4140522d-4e43-4895-8736-f222cb82e5eb" ParentId="39fa1dab-deb6-4c68-a69b-9d15d17af175" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Value" Value="C:\a\src" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3f81c7e2-8672-4a5d-b95d-8f97c920a9a6" ParentId="39fa1dab-deb6-4c68-a69b-9d15d17af175" Type="ActivityOutput">
+  <Fields>
+    <InformationField Name="To" Value="C:\a\src" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="2eadf809-c248-489c-ac9a-0671e9b997c8" ParentId="05096cf2-78cd-41f4-a56f-59f0166e8a7c" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="19" />
+    <InformationField Name="ActivityType" Value="Assign&lt;String&gt;" />
+    <InformationField Name="DisplayName" Value="Initialize Binaries Directory" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2847677Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.2847677Z" />
+  </Fields>
+<Children><BuildInformationNode Id="748bd293-9712-44a7-9379-12dc0f69fca4" ParentId="2eadf809-c248-489c-ac9a-0671e9b997c8" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Value" Value="C:\a\bin" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a686df95-0c4d-4332-8882-31bceebc137b" ParentId="2eadf809-c248-489c-ac9a-0671e9b997c8" Type="ActivityOutput">
+  <Fields>
+    <InformationField Name="To" Value="C:\a\bin" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="84f4c1a3-de03-4a35-b378-8818516b9d18" ParentId="05096cf2-78cd-41f4-a56f-59f0166e8a7c" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="20" />
+    <InformationField Name="ActivityType" Value="Assign&lt;String&gt;" />
+    <InformationField Name="DisplayName" Value="Initialize TestResults Directory" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2858055Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.2858055Z" />
+  </Fields>
+<Children><BuildInformationNode Id="f7c0d8f8-4fc0-4b99-af23-4d7028e59702" ParentId="84f4c1a3-de03-4a35-b378-8818516b9d18" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Value" Value="C:\a\tst" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3910d81e-b07d-456a-9a90-39db3a59394a" ParentId="84f4c1a3-de03-4a35-b378-8818516b9d18" Type="ActivityOutput">
+  <Fields>
+    <InformationField Name="To" Value="C:\a\tst" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="7536b473-b837-4078-a23e-3017b5966443" ParentId="05096cf2-78cd-41f4-a56f-59f0166e8a7c" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="21" />
+    <InformationField Name="ActivityType" Value="If" />
+    <InformationField Name="DisplayName" Value="If Not BuildSettings.HasPlatformConfigurations" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2877681Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.2877681Z" />
+  </Fields>
+<Children><BuildInformationNode Id="d19a5211-c4a0-4c48-bbde-7c4506366e7d" ParentId="7536b473-b837-4078-a23e-3017b5966443" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Condition" Value="False" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="7827dc87-c47e-4e29-9ebf-69e9e9991871" ParentId="05096cf2-78cd-41f4-a56f-59f0166e8a7c" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="22" />
+    <InformationField Name="ActivityType" Value="If" />
+    <InformationField Name="DisplayName" Value="If WorkspaceName &gt; MaxSize" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2887678Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.2887678Z" />
+  </Fields>
+<Children><BuildInformationNode Id="66a992bd-dedd-410c-9acf-cb0ec859fd9b" ParentId="7827dc87-c47e-4e29-9ebf-69e9e9991871" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Condition" Value="False" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode></Children></BuildInformationNode>
+  <BuildInformationNode Id="1468f447-f99d-47aa-9d72-d67a6dc3e73b" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="23" />
+    <InformationField Name="ActivityType" Value="Sequence" />
+    <InformationField Name="DisplayName" Value="Initialize Workspace" />
+    <InformationField Name="Duration" Value="00:00:07" />
+    <InformationField Name="State" Value="Canceled" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2897670Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:22.2080207Z" />
+  </Fields>
+<Children><BuildInformationNode Id="47a0eb2d-7827-4225-8af6-1f6800946f91" ParentId="1468f447-f99d-47aa-9d72-d67a6dc3e73b" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="24" />
+    <InformationField Name="ActivityType" Value="DeleteDirectory" />
+    <InformationField Name="DisplayName" Value="Delete Test Results Directory" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.2907676Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.3087674Z" />
+  </Fields>
+<Children><BuildInformationNode Id="c56290dc-0927-4178-b957-d9d173857da6" ParentId="47a0eb2d-7827-4225-8af6-1f6800946f91" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Directory" Value="C:\a\tst" />
+    <InformationField Name="Recursive" Value="True" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="32e732fc-b836-49e0-9809-12445cf008bb" ParentId="1468f447-f99d-47aa-9d72-d67a6dc3e73b" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="25" />
+    <InformationField Name="ActivityType" Value="If" />
+    <InformationField Name="DisplayName" Value="If Not CleanWorkspace = CleanWorkspaceOption.None" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.3107709Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.3127676Z" />
+  </Fields>
+<Children><BuildInformationNode Id="0cc375b6-71db-4ed0-b68d-2b3660427e75" ParentId="32e732fc-b836-49e0-9809-12445cf008bb" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="26" />
+    <InformationField Name="ActivityType" Value="DeleteDirectory" />
+    <InformationField Name="DisplayName" Value="Delete Binaries Directory" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.3117684Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.3127676Z" />
+  </Fields>
+<Children><BuildInformationNode Id="42917226-92be-4381-937c-2830fae5ac17" ParentId="0cc375b6-71db-4ed0-b68d-2b3660427e75" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Directory" Value="C:\a\bin" />
+    <InformationField Name="Recursive" Value="True" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="8f90140b-d30e-4e55-b0c1-f84c2e4af611" ParentId="32e732fc-b836-49e0-9809-12445cf008bb" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Condition" Value="True" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="61fbc968-23f0-47bb-97f4-ca2b80155534" ParentId="1468f447-f99d-47aa-9d72-d67a6dc3e73b" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="27" />
+    <InformationField Name="ActivityType" Value="If" />
+    <InformationField Name="DisplayName" Value="If CleanWorkspace = CleanWorkspaceOption.All" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.3137683Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.7621355Z" />
+  </Fields>
+<Children><BuildInformationNode Id="7a09ad6a-bbbd-47f1-a261-98f7910dca59" ParentId="61fbc968-23f0-47bb-97f4-ca2b80155534" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="28" />
+    <InformationField Name="ActivityType" Value="Sequence" />
+    <InformationField Name="DisplayName" Value="Delete Workspace and Sources Directory" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.3137683Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.7621355Z" />
+  </Fields>
+<Children><BuildInformationNode Id="8b931edc-1dba-4108-800c-5ac3675472ae" ParentId="7a09ad6a-bbbd-47f1-a261-98f7910dca59" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="29" />
+    <InformationField Name="ActivityType" Value="DeleteWorkspace" />
+    <InformationField Name="DisplayName" Value="Delete Workspace" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.3157678Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.7601339Z" />
+  </Fields>
+<Children><BuildInformationNode Id="5ca6ff6e-a921-429f-a35a-290420f710e5" ParentId="8b931edc-1dba-4108-800c-5ac3675472ae" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Normal" />
+    <InformationField Name="Message" Value="The workspace 4_1140_main1 does not exist." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:14.7351357Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="0c8dcc6c-b3cf-496b-9431-c8be6d0e8799" ParentId="8b931edc-1dba-4108-800c-5ac3675472ae" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="DeleteLocalItems" Value="True" />
+    <InformationField Name="Name" Value="4_1140_main1" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="429b513e-35f0-484b-9c16-31f7430a35b3" ParentId="7a09ad6a-bbbd-47f1-a261-98f7910dca59" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="37" />
+    <InformationField Name="ActivityType" Value="DeleteDirectory" />
+    <InformationField Name="DisplayName" Value="Delete Sources Directory" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.7611329Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:14.7621355Z" />
+  </Fields>
+<Children><BuildInformationNode Id="6d4a127f-a323-4100-b8bf-85ba502bb9f4" ParentId="429b513e-35f0-484b-9c16-31f7430a35b3" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Directory" Value="C:\a\src" />
+    <InformationField Name="Recursive" Value="True" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="7d6e5c7d-355b-49c6-9c51-4bba19e1880f" ParentId="61fbc968-23f0-47bb-97f4-ca2b80155534" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Condition" Value="True" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="f3d20d2a-0051-40d1-a841-72b8ba8a28cc" ParentId="1468f447-f99d-47aa-9d72-d67a6dc3e73b" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="38" />
+    <InformationField Name="ActivityType" Value="CreateWorkspace" />
+    <InformationField Name="DisplayName" Value="Create Workspace" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:14.7882656Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:15.5462806Z" />
+  </Fields>
+<Children><BuildInformationNode Id="c2268295-ca3f-4845-a70b-092d149c824a" ParentId="f3d20d2a-0051-40d1-a841-72b8ba8a28cc" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="BuildDirectory" Value="C:\a" />
+    <InformationField Name="Comment" Value="Workspace Created by Team Build" />
+    <InformationField Name="Security" />
+    <InformationField Name="SourcesDirectory" Value="C:\a\src" />
+    <InformationField Name="Name" Value="4_1140_main1" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="bb4e291c-b2c2-42c5-95f2-922020fcb74d" ParentId="f3d20d2a-0051-40d1-a841-72b8ba8a28cc" Type="ActivityOutput">
+  <Fields>
+    <InformationField Name="Result" Value="4_1140_main1;LOCAL AUTHORITY\Elastic Build (bartlomiejziobrowski)" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="892192bc-32f1-4246-ae8f-baa2f2fa1017" ParentId="1468f447-f99d-47aa-9d72-d67a6dc3e73b" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="67" />
+    <InformationField Name="ActivityType" Value="If" />
+    <InformationField Name="DisplayName" Value="If CleanWorkspace = CleanWorkspaceOption.Outputs" />
+    <InformationField Name="Duration" Value="00:00:00" />
+    <InformationField Name="State" Value="Closed" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:15.5482803Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:15.5482803Z" />
+  </Fields>
+<Children><BuildInformationNode Id="1d86e281-1d50-4886-8e51-c10f0078cd0e" ParentId="892192bc-32f1-4246-ae8f-baa2f2fa1017" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="Condition" Value="False" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode><BuildInformationNode Id="65c33ab3-c012-43e0-bcfa-3fa05861ac17" ParentId="1468f447-f99d-47aa-9d72-d67a6dc3e73b" Type="ActivityTracking">
+  <Fields>
+    <InformationField Name="ActivityInstanceId" Value="68" />
+    <InformationField Name="ActivityType" Value="SyncWorkspace" />
+    <InformationField Name="DisplayName" Value="Get Workspace" />
+    <InformationField Name="Duration" Value="00:00:06" />
+    <InformationField Name="State" Value="Canceled" />
+    <InformationField Name="StartTime" Value="2015-01-30T21:50:15.5552786Z" />
+    <InformationField Name="FinishTime" Value="2015-01-30T21:50:22.2080207Z" />
+  </Fields>
+<Children><BuildInformationNode Id="485e0cea-5aae-4011-98d6-14d558511e97" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox.sln;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.1102807Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d8fb6c80-d7fd-4948-b542-1351e2263f30" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\EntitySandbox.csproj;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.1592797Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="468354db-2b23-4efa-9722-cb032000c7d6" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\favicon.ico;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.1602804Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="70700005-8d17-4934-a044-ef795de787fb" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Global.asax;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.1622796Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9cc40ef8-bf28-4c57-a863-bc6d3654d081" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Global.asax.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.1632813Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="49e3b586-927f-4f54-81ce-1702871aa86a" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\packages.config;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.1662797Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="6bdde10e-c422-4a3d-a6d3-e46dc86810d7" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Project_Readme.html;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.1672784Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="ba9e1b65-c257-4717-b231-6dab03bb4b5d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Web.config;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.1702808Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d79d47ef-4609-41a7-b149-1039b9ab2b60" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Web.Debug.config;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.1712800Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="175b70b2-f9e4-4851-b130-f3a7f0fcb22b" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox.sln: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.3602802Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="dfc50d1d-f523-44c0-9934-899c483b1acc" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Web.Release.config;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.3636251Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="97dd5723-64bb-4861-bc37-c2ef4c832a56" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Global.asax: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.3812793Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9d666248-eb6a-44cb-af42-a951c80fb750" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start\BundleConfig.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.3822799Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="77911371-7baa-4783-83b6-d2a35dc62483" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\favicon.ico: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.3842798Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="82426323-d68d-427e-ac66-72ddf366b55f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start\FilterConfig.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.3852802Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="429d4ca2-00a6-4cd2-b15f-b26ce1df8220" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\EntitySandbox.csproj: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.3902802Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="22b45db6-9f6f-4ffa-87f9-3f2e08827c7a" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start\RouteConfig.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.3902802Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="7c8b58fa-ece4-4e59-ab67-e1866350a23f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Web.Debug.config: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.4242793Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="5986bfb2-3786-4b7a-a249-03df34b72dde" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start\Startup.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.4252804Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="e2fa5539-3b85-4053-8aa7-2552872f8676" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Web.Release.config: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.4474866Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="8ebe5b8b-bbdc-4f7e-a5bc-6f1e36bee54e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start\WebApiConfig.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.4484885Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="40d9cc65-c7d1-4f7a-aaf7-8f22ae57cfe6" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start\FilterConfig.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.4524884Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="85802004-0fd4-4979-b6c4-6a5295d62514" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ApiDescriptionExtensions.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.4544871Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d3479a78-4fec-49e0-b3af-807e7822b88c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start\BundleConfig.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.4554874Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a9f35dd6-f685-424b-9ffe-1400798e9006" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\HelpPage.css;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.4564875Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="eecf466f-6256-47e2-922d-441b4a29524e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start\WebApiConfig.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5147297Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9f8bdfc0-4288-449b-b772-5205ad3023b7" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\HelpPageAreaRegistration.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5157297Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="cac1fd74-1a71-4530-a312-011808f48bc6" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start\RouteConfig.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5207309Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="75570753-8084-41ae-a1cd-a4a683b70b02" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\HelpPageConfigurationExtensions.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5207309Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a6a2267e-f66c-43f4-8dc7-974964e3a486" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start\Startup.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\App_Start' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5217307Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="200a048b-c634-455b-9464-0452c42e8dd5" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\XmlDocumentationProvider.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5247342Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a6bc3313-0144-47be-ba85-7fad185ab406" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ApiDescriptionExtensions.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5297311Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="60b24978-f4cc-41b5-9efe-ccf1ec0f4ba8" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\App_Start\HelpPageConfig.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5307342Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="4638c04d-e13a-4621-9ca8-52086c5d26ef" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Global.asax.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5695568Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9103aeed-d43e-431d-b046-c84b6f2095fa" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Controllers\HelpController.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5705575Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="67869fb0-f95a-4266-8aae-0df8f6c824ae" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\HelpPage.css: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5815562Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9715f509-6f71-46dc-aa31-11eec58b359f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5815562Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="09da44dd-47cb-4eb2-ad35-4d289dc2bdee" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\HelpPageAreaRegistration.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5875569Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="c88dd6a5-2bf3-487d-9a46-f671b44210ca" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5885559Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="69631b72-8bdb-45f8-bbe1-d66ee9c59ccb" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\HelpPageConfigurationExtensions.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5925570Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="01579c4e-26cb-42ee-a7b4-b1d098946cf0" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.5935565Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="11612bbc-2741-46ca-898a-3e17a6f5e0ed" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\XmlDocumentationProvider.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6269894Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="7528c60a-1663-47b0-ad2e-5009fd2b661b" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6279901Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="58f265b6-1b96-4168-8a24-6993efcc1b0b" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\App_Start\HelpPageConfig.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\App_Start' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6699896Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="8767927e-4c77-4fd4-bbe7-ddb0da0f632f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6709897Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a8edf70d-3329-4cca-9873-89994ebdb80e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6719895Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="c4ee61be-353f-49b3-899f-f242941f0804" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6729926Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="ca4c3867-bec2-49fe-bc64-328a408d5843" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Controllers\HelpController.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Controllers' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6769907Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="40dda9b4-19b8-4da3-812c-0fd25b3d68fd" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6769907Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="b4bb7a0e-0602-4429-81fd-87fd269614b9" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6779889Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a5443253-abb8-450b-b131-02cb91384de1" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ModelDescription.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6789886Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="c70d8d4a-a65f-48e1-9234-ad7706b311bf" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6929887Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="dea68a4a-280a-47fc-b210-56d7980e0c6d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.6939896Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="796417a9-937a-43f5-9c4e-c17fd8a70001" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7309906Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3bae4005-dda4-4917-b04a-c741c12c0c2c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7319924Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="1385f7a0-310a-44d8-9af7-20ff38356a59" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7400069Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="c9cb8196-b2e7-4d1d-b615-d97927c64b8a" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7409911Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="2a0a37b8-1a17-4620-b76a-fe6458fea426" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7479899Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="fc456bd2-888b-4d06-8238-b587242ab4e2" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7489889Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="03c4c43b-21c0-4888-9606-171b13db50d9" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7709910Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="47361dd7-988a-4a66-82ef-bfa98ed36539" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ParameterDescription.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7719890Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="791c83d7-9e75-4c41-974c-a2d7f96964c5" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ModelDescription.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7962872Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="ec2f425d-f090-4079-9951-6c894ab80b66" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7972867Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9440200e-c0d7-4f9a-8dd3-9e92c186ca3f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7992865Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="84ba26b4-29a2-4df3-85d1-d3864d86f25e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Models\HelpPageApiModel.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.7992865Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="327cde29-8006-4e19-80df-6ef574ebde7b" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8094925Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="fc301f50-9357-4dd4-90c4-1a9437e8148d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8344916Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="36dc92df-f5a8-4b0e-b485-898618fb8ebe" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8354908Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="f2efaf68-a68f-4bc5-866a-ae3b1b0c5845" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8364917Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="6e460f18-90b5-4ad7-a23a-f3fa703ede80" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8364917Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d8789c29-b2de-46bb-b525-9bbf61120d1c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\ImageSample.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8374908Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="580cf565-0459-4938-bac1-8e3af95cd9fa" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Project_Readme.html: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8504923Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="6ddf5a72-1136-4cdb-831a-e8b3d2cb97fa" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\InvalidSample.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8514917Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="304ad7d3-242d-4ae0-a244-6107709ce799" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\ParameterDescription.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8524925Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="83a71dc2-c660-442e-85e6-c81b454f6dbb" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\ObjectGenerator.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8534925Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="f418b968-5298-400c-ab17-5d9838027635" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\ModelDescriptions' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8674919Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="0491196f-ec34-4af8-a1d3-6ac8f1da4893" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\SampleDirection.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8684916Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a8bc607e-b96a-422b-9d2c-f351c3924355" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8931251Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9c59e448-c301-42ca-909a-2f2321ffc0ab" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8941245Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d47b912d-fe4a-4d21-ba44-0edc621676ed" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\TextSample.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8941245Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="bfd9785a-be6a-4e23-ae94-6ebbc682747e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\_ViewStart.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8961255Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="1e2ac28a-15f6-48c4-9e32-d7916d77ce28" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Models\HelpPageApiModel.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Models' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.8991254Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="ce61feaa-422b-46f5-8fca-5f282fee9b7f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Web.config;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9041244Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9631115b-d456-466c-8270-a3b7e6dec9bc" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\ImageSample.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9051246Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="08e8319b-1ea8-4269-b817-41aa8f01d20e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\Api.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9061257Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="02530291-e7cc-479d-8d27-244ba3792c92" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\InvalidSample.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9131252Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3e7c021a-959a-4ffb-827d-0c4e9470fdd4" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\Index.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9151240Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="732c8ee6-de8c-4505-a1e5-757eef7a74f6" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\ObjectGenerator.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9409082Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d0bdcb0b-a11f-43b7-aaef-cac0de8534d2" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\ResourceModel.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9417805Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3e63babc-2ae4-44d1-ab82-a93baa234acd" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Web.config: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9417805Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="735f8ffa-37fd-4bf1-b5c0-373163ec398c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9437870Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="e4743d67-8522-4335-88dd-adfb6e0cea64" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\SampleDirection.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9487815Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="01787f31-05fc-422f-a183-2f9135ff5817" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9487815Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="8c446691-1478-49c9-90ce-15b738ee7239" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration\TextSample.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\SampleGeneration' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9537826Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="f15f48db-9e9d-41a4-b0a7-82858759218f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9548404Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="f72c799b-cbe2-4ddb-b450-2e6bca65f899" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\_ViewStart.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9637813Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="6c0f189b-097c-4f67-ae2e-0803b5cc9ede" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Web.config: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9647806Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="7288063c-c62b-4826-a98f-07f0ac6ed216" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9647806Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="107f88ad-256b-43da-b3d1-0ef8ff029cb2" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9657806Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="36b23981-aef1-4c22-bf08-9d63162646e1" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\Api.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9787840Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="e9726073-bf62-4ab2-8562-7ea55818dab0" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9797809Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3261982a-0b73-40ee-9c53-5ff5f79a6d5e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\ResourceModel.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9970243Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="58b8e2cb-a8ff-4430-a496-672613141f69" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:16.9983923Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="1c03aaad-38d4-4f2c-8add-9009e909f908" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0141781Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="75192d47-e66c-4cee-b2b7-507e15279468" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0151730Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="45598ffb-5940-47c3-9c7c-8ab444ac662c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0161729Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="079ec3ae-6aa0-4e8e-922f-8cdca31c28e0" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0161729Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="1a5d7ee3-f9a6-4f64-9257-2255c68ec45f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\Index.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0241721Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="715566dc-c434-4bf6-b527-2b6efb4f3576" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0251717Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="0da80c4e-4b56-40a2-a08d-da32cb1cd4fc" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0351809Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="8346af87-369e-4935-9502-06f393c838d6" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0361728Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="c640161d-22bb-4691-a6dc-b9fb2a05c25f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0401729Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="b1e2eaf0-2945-4ec1-b640-18c2c824af0d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0401729Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="1bc95fe2-3a84-4d86-a12c-e594fb93b60c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0521723Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="dc4beefb-ce8e-42a3-ba78-acefd8177e02" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0531745Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a0420500-1633-43fd-9a41-1a458ae31ab8" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0611715Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="7cf2e306-02d8-4b87-bd67-693573cb237d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0621734Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d823d2a9-fad2-4050-9993-8ce6f963a438" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0776617Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="5e1312fb-db92-43b3-b0ad-aa7e9d1b09e6" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0776617Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d2fe66ab-29cc-4e48-9ec7-8e5f4d5e884d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Shared\_Layout.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0786595Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="c1ddf9e4-3168-4cc5-97e7-66ff8a078d1d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content\bootstrap.css;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0796596Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="56200f38-0425-4b3b-8b9c-d1e8a923742d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0973780Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="6fe92603-33eb-47b5-885f-b1f3d0e2c1ce" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content\bootstrap.min.css;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.0998574Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3bdf5aea-9a3a-4769-afb2-a13b7f1aa0c8" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1008499Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="65711313-8f16-4a3a-965d-327fad41a00b" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content\bootstrap-theme.css;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1018505Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9087b1ed-c8eb-4ae0-9bdc-9d28dbd35f5d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1028499Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="e3e0bd3d-ab2b-4de7-b12d-1622e851c535" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content\bootstrap-theme.min.css;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1028499Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="41bd491a-6ce5-4667-8b95-2152683276a5" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1230596Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a675489f-086d-4794-8982-886a3aa3b4e1" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1230596Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="e3dda1b7-ef7e-4189-9b40-dbba5e5f307f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content\Site.css;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1240584Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="f08e3f28-5c9a-49ed-85e4-f89f068d8e69" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Context\TfsContext.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1250585Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="08694280-8410-4d3e-9ab7-22ed0394366c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Shared\_Layout.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Shared' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1400593Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="184ad113-2df9-4837-a4f5-4819d6af0f76" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Controllers\HomeController.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1410593Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="20be9ec8-b603-4996-8f49-0f249e899015" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content\bootstrap.css: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1648380Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="ae889a45-7a62-45c4-ba1f-24967c3c9ce5" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Controllers\ValuesController.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1658374Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="65f70c87-6c80-4aea-b214-76a31bc30f47" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content\bootstrap-theme.css: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1688368Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="69c9bb86-b545-4a4b-a5db-ad6a8a436cbb" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts\glyphicons-halflings-regular.eot;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1688368Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="579345ac-d469-49d2-aabf-9ff91457e8db" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content\bootstrap.min.css: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1838432Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="eab04b9c-d005-4311-9478-12aecd0a6524" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts\glyphicons-halflings-regular.svg;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.1848404Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="6ffbc50b-5de5-4fcc-bbad-7b34abad79d1" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content\bootstrap-theme.min.css: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2010507Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="7b6e8d73-c4a7-4df6-8ea1-8540a13057b5" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts\glyphicons-halflings-regular.ttf;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2018381Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3143decb-2414-4b99-8fc7-f443daf31ada" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Context\TfsContext.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Context' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2299234Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="40b200a4-d6da-4c8a-8fe8-128691961086" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Areas\HelpPage\Views\Help\DisplayTemplates' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2309225Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9cd59530-f9b4-4ed4-8ba8-809a09abece6" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts\glyphicons-halflings-regular.woff;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2309225Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="5194a6f8-1fa4-4c4f-b284-7a2192a23646" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Hubs\StatusHub.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2329224Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="370ab7e1-e001-413a-b067-86a5802c5658" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content\Site.css: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Content' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2329224Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="354c6f5a-6b72-4c72-8de8-83f426963f28" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models\DimBuilds.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2339222Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="755391d3-0e6c-4b72-9e5e-473b1e7bb7b0" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Controllers\HomeController.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Controllers' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2601380Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="706169b4-2032-41db-8b6e-99b7656a8413" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models\FactBuildDetails.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2611389Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="31f41b11-d0c9-4c36-838b-ec3361d5db4f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Controllers\ValuesController.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Controllers' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2861390Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="87a0eae4-39e1-431f-856c-96eb4f5fd1fb" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models\FactCodeChurn.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2881445Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="0f10ea27-8ea2-459c-8a73-fa11d02dba94" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts\glyphicons-halflings-regular.eot: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2911390Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="90792727-d5b3-4e26-8ddc-92f2a90ee1e8" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models\FactRunCoverage.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2921380Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="81f0a986-7162-471f-849c-154ae52c8ca2" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts\glyphicons-halflings-regular.svg: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2941390Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="cf653ed2-fa0e-41c4-9ce9-01492bb05c0f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Properties\AssemblyInfo.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.2951375Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="38277405-dc75-4dcb-982d-7f705ba4c7c5" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts\glyphicons-halflings-regular.woff: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3031387Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="f022c4fe-4595-4a0d-8309-f10c44afc367" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Repositories\TfsApiRepository.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3031387Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3e36124b-9385-4f13-81eb-16c597ead165" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models\DimBuilds.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3201389Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="0aca1c3b-5443-42e9-8043-7bcc2c460f4c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Repositories\TfsRepository.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3211389Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="1d802c83-0c45-4835-bd0c-8ae4a8ea5cc7" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts\glyphicons-halflings-regular.ttf: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\fonts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3221407Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="c879de37-999f-4a4a-9a2a-2dbb2146bfaa" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\_references.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3221407Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="4851e05a-f4bf-415a-b7f3-45175b73a199" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Properties\AssemblyInfo.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Properties' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3612447Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a4e357e7-768c-43bd-a191-7096ae9b2d9b" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\bootstrap.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3630198Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="cc4b9c7f-7c25-418d-863f-fedf58582367" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models\FactCodeChurn.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3720217Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="2c316c07-9a4a-476d-9b29-b75da95e97cd" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models\FactBuildDetails.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3730198Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="2254218f-3460-43ee-8935-fa3e558caf2c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\bootstrap.min.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3740255Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="2cf885cc-6d9a-4eb0-ad3b-ed0fd30d0790" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\brush.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3760196Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="47a414c2-4b64-4221-8db4-974f4a72d34c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Hubs\StatusHub.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Hubs' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3800194Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="f0eddeeb-7d39-4f15-85a2-b25db7050464" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Repositories\TfsRepository.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Repositories' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3810194Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="e24272ef-232d-450e-ae58-bfe9f4f187ec" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\corellation.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3820309Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="346960e1-1576-4d5f-8fc7-d73608615b9e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\d3.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3830201Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="11d9f439-5fa3-431b-a3d4-dc923b0428d7" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Repositories\TfsApiRepository.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Repositories' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.3990209Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="657b7f24-6f38-48ef-9bef-25418a91cd0b" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\d3.min.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4000211Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a9ad0091-44f5-4bf9-8333-1c0f3d76c7c0" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\_references.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4190198Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="52fd94a0-4510-4e98-8c24-f03ecbdfe539" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\dependencyWheel.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4200210Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a46d6520-d6c6-4257-9e49-583a3686fb34" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\bootstrap.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4346273Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="23b59a88-71d5-41f1-b9a7-6820c82ea94c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery.signalR-2.1.2.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4346273Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="afe45723-dd86-4c13-a967-9c69452163b8" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\bootstrap.min.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4426266Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="e9edef0b-9673-4807-8b71-686f88b2c3e6" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery.signalR-2.1.2.min.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4436275Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="57a9e4b1-4850-4321-8862-4ef78f50e8d2" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\brush.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4516268Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="aa9a02c3-95d2-4210-83ae-74d7a50c4cd5" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery-1.10.2.intellisense.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4516268Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="6e53c570-efd8-411f-b6dd-73d5ca031be8" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\corellation.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4808453Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d19861fd-b81a-4cce-a13a-39f5e01c7fca" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery-1.10.2.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4818446Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="5cdd665d-d4e8-4510-9a54-157ed81f2748" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\dependencyWheel.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4948452Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="50ea0900-9720-4e2f-9f40-c3b47bbedc8d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery-1.10.2.min.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4958464Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="b8745060-c09a-4734-9818-c11535d29db1" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\d3.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.4998466Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="df15cb4a-c988-4bb0-8795-f539eaa7b730" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery-1.10.2.min.map;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5008453Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="2a7d4475-c6e2-4f32-9d4c-ba1507ef7c58" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery.signalR-2.1.2.min.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5128452Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="12f4cd19-5502-4234-9cc5-37050f7ed137" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\legend.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5138439Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="62d353cd-dcd6-4d91-92e3-5d23cd25b055" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery.signalR-2.1.2.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5208449Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="6237e602-2937-4b45-a149-38e647a727f6" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\modernizr-2.6.2.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5218467Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="e7056c04-607e-49b1-969e-098d59efb586" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\d3.min.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5375804Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d676679a-6c2a-4350-a457-69bc172ae46e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\randomData.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5384769Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="621c6f4d-0b69-40e9-88fd-5336beb4c8aa" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery-1.10.2.intellisense.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5574869Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="e75a8fbe-7282-4b4c-8187-54a25c5eba92" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\respond.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5584871Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="b6bc559d-3313-41ca-8586-836fd5940b58" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery-1.10.2.min.map: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5745159Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="cd09dff8-8b9c-47c5-988c-f177fa0aa36f" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\respond.min.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5754876Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="6b7b88e8-b9b0-40b1-aad3-7b8b32267489" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\legend.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5784872Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="de8579ec-db2e-4a3b-92a5-1ca4dd63c108" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\runningbuildstatus.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5804869Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="89555c25-e415-47c4-a3b0-0955cd8ce2c4" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery-1.10.2.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5824931Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="f2633674-d844-42af-a80e-84f97149d77d" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\Scatter.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.5834901Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3d1f08a6-2127-44b2-8817-78d7bc0b97fb" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\randomData.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6311349Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="f05270bd-b922-463c-ac48-53440a489b5c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\updatebuildschart.js;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6321341Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9565d3c7-5dd1-4d52-b535-ec248f7bf67b" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\respond.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6351333Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="b3bea3d3-0ac3-4d56-8e2f-f466c6fa51f9" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\ViewModels\BuildResults.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6371339Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="54ad3a5b-3d64-406c-9cb0-921dc3bf6a39" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\respond.min.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6421347Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="0d618c7c-89b3-48b5-a0be-ea01e848c4a7" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\ViewModels\RunningBuildTime.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6421347Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="51a79c6b-3963-4af7-937a-041a4a3ac78a" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\modernizr-2.6.2.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6845621Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="aa44ffb8-6995-4c3f-86bb-3f9469982d75" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\ViewModels\TfsBuildResults.cs;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6855612Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9b66ecc7-15a0-403d-b164-56f952475f53" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\updatebuildschart.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6885645Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="7f44f1e2-0047-411b-8a65-d26ea53f8300" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\_ViewStart.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6895608Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="5d6a3921-5f7c-4d55-b71e-c73f00f1b7fa" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\Scatter.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6957627Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="250111f0-39a4-4731-a0e2-2e57edded846" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Web.config;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.6977724Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="6153a8d6-ec83-4dba-ad75-0e041d93d4e1" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\ViewModels\BuildResults.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\ViewModels' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7017712Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="2bf64cfc-6e8f-46c4-aeab-2e9145e0c8f3" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Home\DependencyWheel.cshtml;C47" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7027711Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="209bde4e-9fda-4c24-9bbb-7a560db85a9c" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\ViewModels\TfsBuildResults.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\ViewModels' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7426976Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="48f6aac7-8a19-46ae-9df4-316600cffe6e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Home\Index.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7436949Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="0ece1aa4-da56-4782-b7e1-7b8a42a6f87e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\ViewModels\RunningBuildTime.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\ViewModels' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7446937Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="9874bdc5-befc-4c45-b229-20dfd3f89dc6" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Shared\_Layout.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7456948Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="f510a07b-2ab0-4537-9e29-bc35681a1bdb" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\runningbuildstatus.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7666321Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="3f5bbffd-b844-4ff9-b2fc-e3d4b7fc4e6a" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Low" />
+    <InformationField Name="Message" Value="Getting C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Shared\Error.cshtml;C45" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7676338Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="440c4abc-da04-4c39-8743-0557c83b240e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\_ViewStart.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7704368Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="31b64b8e-acc0-47a7-adc5-b840521956ac" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Web.config: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7784317Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d4b6ac71-daa9-4292-9c94-4232001e706e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models\FactRunCoverage.cs: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Models' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.7944276Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="2883a748-cba4-49af-bb4d-f48f6c75aa0e" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Home\DependencyWheel.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Home' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.8184257Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a2f3e1c9-de07-4eff-9196-2e646a8c6fc5" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Home\Index.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Home' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.8194260Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="838220c9-c310-4db0-b1d2-0e5451e1dd51" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Shared\Error.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Shared' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.8334277Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="a7dab63e-5725-41a3-8281-0002456bc906" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Shared\_Layout.cshtml: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Views\Shared' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:17.8434277Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="fd08a314-ac69-450f-b807-a37bd863202a" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts\jquery-1.10.2.min.js: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\Scripts' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:18.2862877Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="fb835199-b290-44e4-9032-cd51e779eadd" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox\packages.config: Access to the path 'C:\Users\Bartek\Source\Workspaces\BuildWatcher\BuildWatcher\EntitySandbox' is denied." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:22.0461498Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="e19b4cb1-f93d-4064-a0bb-c1d6fb9fc1b5" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="GetStatus">
+  <Fields>
+    <InformationField Name="NumFailures" Value="0" />
+    <InformationField Name="NumOperations" Value="143" />
+    <InformationField Name="NumFiles" Value="0" />
+    <InformationField Name="NumBytes" Value="0" />
+    <InformationField Name="NumConflicts" Value="0" />
+    <InformationField Name="NumResolvedConflicts" Value="0" />
+    <InformationField Name="NumUpdated" Value="0" />
+    <InformationField Name="NumWarnings" Value="0" />
+    <InformationField Name="NoActionNeeded" Value="False" />
+    <InformationField Name="HaveResolvableWarnings" Value="False" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="d84fa035-4f0e-4df1-ae29-e2b08fe0ff6b" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildMessage">
+  <Fields>
+    <InformationField Name="Importance" Value="Normal" />
+    <InformationField Name="Message" Value="0 file(s) were downloaded with a total size of 0.00 MB." />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:22.0911504Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="61e6f358-414f-432b-9821-c7178eaab2f0" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="ActivityInput">
+  <Fields>
+    <InformationField Name="AutoMerge" Value="True" />
+    <InformationField Name="PopulateOutput" Value="False" />
+    <InformationField Name="GetOptions" Value="None" />
+    <InformationField Name="NoCIOption" Value="True" />
+    <InformationField Name="VersionOverride" />
+    <InformationField Name="Workspace" Value="4_1140_main1;LOCAL AUTHORITY\Elastic Build (bartlomiejziobrowski)" />
+    <InformationField Name="AllowUnmapped" Value="True" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="477d7599-fc55-4cb3-aa0b-4082dc0e9280" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="BuildError">
+  <Fields>
+    <InformationField Name="ErrorType" />
+    <InformationField Name="Message" Value="&#xD;&#xA;Exception Message: One or more errors occurred while performing a Get operation. (type GetException)&#xD;&#xA;Exception Stack Trace:    at Microsoft.TeamFoundation.Build.Workflow.Activities.SyncWorkspaceInternal.ThrowIfErrorsOccurred.Execute(CodeActivityContext context)&#xD;&#xA;   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)&#xD;&#xA;   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)&#xD;&#xA;" />
+    <InformationField Name="Timestamp" Value="2015-01-30T21:50:22.0921483Z" />
+  </Fields>
+<Children /></BuildInformationNode><BuildInformationNode Id="aca7422d-6c9f-4160-95e6-f6da1e219c30" ParentId="65c33ab3-c012-43e0-bcfa-3fa05861ac17" Type="ActivityOutput">
+  <Fields>
+    <InformationField Name="Deletes" />
+    <InformationField Name="Replaces" />
+    <InformationField Name="Gets" />
+  </Fields>
+<Children /></BuildInformationNode></Children></BuildInformationNode></Children></BuildInformationNode>
+</BuildInformation>

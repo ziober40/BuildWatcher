@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="ENTITYSANDBOXFOLDER">
+            <Component Id="favicon.ico" Guid="{753C3034-B3A7-4A20-A2B4-1F6A3E731EA3}">
+                <File Id="favicon.ico" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)favicon.ico" />
+            </Component>
+            <Component Id="Global.asax" Guid="{CD1CDE04-122B-4637-A342-0912F778CD4B}">
+                <File Id="Global.asax" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Global.asax" />
+            </Component>
+            <Component Id="Project_Readme.html" Guid="{53620B79-65DF-4C80-A071-1676D4A37816}">
+                <File Id="Project_Readme.html" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Project_Readme.html" />
+            </Component>
+            <Component Id="Web.config" Guid="{6DA4E6BE-FC32-4F05-9CC1-4DAA3182E5DC}">
+                <File Id="Web.config" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Web.config" />
+            </Component>
+            <Directory Id="Areas" Name="Areas">
+             
+              <Directory Id="HelpPage" Name="HelpPage">
+                    <Directory Id="Views" Name="Views">
+                        <Component Id="Web.config_1" Guid="{9CF9479E-029D-4FCA-841D-AC2D8DC97EAF}">
+                            <File Id="Web.config_1" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Web.config" />
+                        </Component>
+                        <Component Id="_ViewStart.cshtml" Guid="{CBC85ACD-482D-401F-8F53-990C1A7E2C32}">
+                            <File Id="_ViewStart.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\_ViewStart.cshtml" />
+                        </Component>
+                        <Directory Id="Help" Name="Help">
+                            <Component Id="Api.cshtml" Guid="{D00C2CA9-219F-40AB-9B0F-7E4CE339D650}">
+                                <File Id="Api.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\Api.cshtml" />
+                            </Component>
+                            <Component Id="Index.cshtml" Guid="{F350100A-915D-4643-B5E9-48CD453423C3}">
+                                <File Id="Index.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\Index.cshtml" />
+                            </Component>
+                            <Component Id="ResourceModel.cshtml" Guid="{2CF0CD02-2DA7-4A5B-977C-A4631A5D10A1}">
+                                <File Id="ResourceModel.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
+                            </Component>
+                            <Directory Id="DisplayTemplates" Name="DisplayTemplates">
+                                <Component Id="ApiGroup.cshtml" Guid="{A6889FBD-6516-47C3-8F29-8FCA5A220509}">
+                                    <File Id="ApiGroup.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+                                </Component>
+                                <Component Id="CollectionModelDescription.cshtml" Guid="{59A6F740-76CC-403B-A348-0370BF90CB8D}">
+                                    <File Id="CollectionModelDescription.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
+                                </Component>
+                                <Component Id="ComplexTypeModelDescription.cshtml" Guid="{FC6CE389-DBC7-4C6D-A4BF-3D048EA19955}">
+                                    <File Id="ComplexTypeModelDescription.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
+                                </Component>
+                                <Component Id="DictionaryModelDescription.cshtml" Guid="{47CF7EED-5794-4FD9-9C5E-E06A58B08D02}">
+                                    <File Id="DictionaryModelDescription.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
+                                </Component>
+                                <Component Id="EnumTypeModelDescription.cshtml" Guid="{79FC39F1-4CA1-446A-A8B4-794FF08572CA}">
+                                    <File Id="EnumTypeModelDescription.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
+                                </Component>
+                                <Component Id="HelpPageApiModel.cshtml" Guid="{3F3FCC34-F0CB-42F8-8A40-4EDDB9477C6C}">
+                                    <File Id="HelpPageApiModel.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+                                </Component>
+                                <Component Id="ImageSample.cshtml" Guid="{25A74D8A-5C00-471F-B498-2C0E87697589}">
+                                    <File Id="ImageSample.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+                                </Component>
+                                <Component Id="InvalidSample.cshtml" Guid="{2D174207-465E-4BDB-BD06-A5254116E1C4}">
+                                    <File Id="InvalidSample.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+                                </Component>
+                                <Component Id="KeyValuePairModelDescription.cshtml" Guid="{D8C9085E-F1A6-475B-8049-4686004F5380}">
+                                    <File Id="KeyValuePairModelDescription.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
+                                </Component>
+                                <Component Id="ModelDescriptionLink.cshtml" Guid="{91F56FC0-C6B7-4E73-BA53-91E77075A071}">
+                                    <File Id="ModelDescriptionLink.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
+                                </Component>
+                                <Component Id="Parameters.cshtml" Guid="{A43581AA-8638-4EFD-A3D1-5EABBEE2AAC3}">
+                                    <File Id="Parameters.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+                                </Component>
+                                <Component Id="Samples.cshtml" Guid="{7016BBAB-6242-4362-B165-CB9FFFD172E3}">
+                                    <File Id="Samples.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+                                </Component>
+                                <Component Id="SimpleTypeModelDescription.cshtml" Guid="{33C7553E-CAEB-49B7-B439-3B80FD9637F4}">
+                                    <File Id="SimpleTypeModelDescription.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
+                                </Component>
+                                <Component Id="TextSample.cshtml" Guid="{6CE86819-4162-42EA-B2FB-9F781F57CB2E}">
+                                    <File Id="TextSample.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+                                </Component>
+                            </Directory>
+                        </Directory>
+                        <Directory Id="Shared" Name="Shared">
+                            <Component Id="_Layout.cshtml" Guid="{DD1F3DD3-179E-498A-935C-EA4B71B1DB5C}">
+                                <File Id="_Layout.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                </Directory>
+            </Directory>
+            <Directory Id="bin" Name="bin">
+                <Component Id="Antlr3.Runtime.dll" Guid="{A5AD0819-4E67-43F5-917F-6172A056D961}">
+                    <File Id="Antlr3.Runtime.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Antlr3.Runtime.dll" />
+                </Component>
+                <Component Id="Antlr3.Runtime.pdb" Guid="{C667F6B2-8724-4BDA-85DC-8CFE3B04B5AB}">
+                    <File Id="Antlr3.Runtime.pdb" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Antlr3.Runtime.pdb" />
+                </Component>
+                <Component Id="dotless.Core.dll" Guid="{32D12B54-067D-4A8A-B733-2D19D3503AD3}">
+                    <File Id="dotless.Core.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\dotless.Core.dll" />
+                </Component>
+                <Component Id="EntityFramework.dll" Guid="{591D1A10-9B10-488B-9B44-6BBBD346F16F}">
+                    <File Id="EntityFramework.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\EntityFramework.dll" />
+                </Component>
+                <Component Id="EntityFramework.SqlServer.dll" Guid="{A7E6445B-47CC-4972-A1E1-244D3454B670}">
+                    <File Id="EntityFramework.SqlServer.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\EntityFramework.SqlServer.dll" />
+                </Component>
+                <Component Id="EntitySandbox.dll" Guid="{1808D63A-6AB9-4707-B53E-84301675B0C8}">
+                    <File Id="EntitySandbox.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\EntitySandbox.dll" />
+                </Component>
+                <Component Id="EntitySandbox.dll.config" Guid="{2D5711A1-E79F-49F1-9AF1-83F356EBC816}">
+                    <File Id="EntitySandbox.dll.config" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\EntitySandbox.dll.config" />
+                </Component>
+                <Component Id="EntitySandbox.pdb" Guid="{E32CAAE3-0771-49EE-8A13-745ED039A19D}">
+                    <File Id="EntitySandbox.pdb" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\EntitySandbox.pdb" />
+                </Component>
+                <Component Id="Microsoft.AspNet.SignalR.Core.dll" Guid="{79033275-2C0E-40CD-A28E-55196E31BEBD}">
+                    <File Id="Microsoft.AspNet.SignalR.Core.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.AspNet.SignalR.Core.dll" />
+                </Component>
+                <Component Id="Microsoft.AspNet.SignalR.SystemWeb.dll" Guid="{22C0AC5B-D827-422D-88F1-C1FC90E6DA18}">
+                    <File Id="Microsoft.AspNet.SignalR.SystemWeb.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.AspNet.SignalR.SystemWeb.dll" />
+                </Component>
+                <Component Id="Microsoft.Owin.dll" Guid="{5444E996-008D-4421-8FF4-4FE841F83803}">
+                    <File Id="Microsoft.Owin.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.Owin.dll" />
+                </Component>
+                <Component Id="Microsoft.Owin.Host.SystemWeb.dll" Guid="{F5566A58-60B4-43B2-8A57-93F22414CF0A}">
+                    <File Id="Microsoft.Owin.Host.SystemWeb.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.Owin.Host.SystemWeb.dll" />
+                </Component>
+                <Component Id="Microsoft.Owin.Host.SystemWeb.xml" Guid="{876E50C6-38BA-4361-A424-446ACCD2822E}">
+                    <File Id="Microsoft.Owin.Host.SystemWeb.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.Owin.Host.SystemWeb.xml" />
+                </Component>
+                <Component Id="Microsoft.Owin.Security.dll" Guid="{E16E2A6E-C202-4209-9F32-BF2DF6585467}">
+                    <File Id="Microsoft.Owin.Security.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.Owin.Security.dll" />
+                </Component>
+                <Component Id="Microsoft.Owin.Security.xml" Guid="{204CDD28-FE9C-4769-9C65-DE4962AA4443}">
+                    <File Id="Microsoft.Owin.Security.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.Owin.Security.xml" />
+                </Component>
+                <Component Id="Microsoft.Owin.xml" Guid="{76CF68D2-5220-4E32-9861-9C4D886751DB}">
+                    <File Id="Microsoft.Owin.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.Owin.xml" />
+                </Component>
+                <Component Id="Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll" Guid="{42F582FF-394F-4380-B08D-1968FA6AF82B}">
+                    <File Id="Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll" />
+                </Component>
+                <Component Id="Microsoft.Web.Infrastructure.dll" Guid="{A4F67CE2-2558-4AC5-964A-856D6C0655A2}">
+                    <File Id="Microsoft.Web.Infrastructure.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.Web.Infrastructure.dll" />
+                </Component>
+                <Component Id="Microsoft.WITDataStore.dll" Guid="{E58DD8BE-C472-4AC0-B7C3-66BD55A0A47D}">
+                    <File Id="Microsoft.WITDataStore.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Microsoft.WITDataStore.dll" />
+                </Component>
+                <Component Id="Newtonsoft.Json.dll" Guid="{1E56F3D8-C6BA-4E6F-A313-1F9AD4AEC5C9}">
+                    <File Id="Newtonsoft.Json.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Newtonsoft.Json.dll" />
+                </Component>
+                <Component Id="Newtonsoft.Json.xml" Guid="{FEA50C9E-2005-413E-8AB3-2ABD74B86C51}">
+                    <File Id="Newtonsoft.Json.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Newtonsoft.Json.xml" />
+                </Component>
+                <Component Id="Owin.dll" Guid="{1AFA4336-2C66-4047-9CE8-A1D7614B7419}">
+                    <File Id="Owin.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\Owin.dll" />
+                </Component>
+                <Component Id="System.Net.Http.Formatting.dll" Guid="{46328BA1-B2A8-4CBD-8B75-5E6651C83CCA}">
+                    <File Id="System.Net.Http.Formatting.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Net.Http.Formatting.dll" />
+                </Component>
+                <Component Id="System.Net.Http.Formatting.xml" Guid="{F98A0609-8510-43D2-8FEC-1C8137569DCC}">
+                    <File Id="System.Net.Http.Formatting.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Net.Http.Formatting.xml" />
+                </Component>
+                <Component Id="System.Reactive.Core.dll" Guid="{9659DFCB-0688-42D5-997F-76DFE2E1B891}">
+                    <File Id="System.Reactive.Core.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Reactive.Core.dll" />
+                </Component>
+                <Component Id="System.Reactive.Interfaces.dll" Guid="{8D3D83C4-079C-453F-A8E4-F9E8B5E5DC53}">
+                    <File Id="System.Reactive.Interfaces.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Reactive.Interfaces.dll" />
+                </Component>
+                <Component Id="System.Reactive.Linq.dll" Guid="{090B5EA9-D677-4825-8A12-FF82B9ECEBB1}">
+                    <File Id="System.Reactive.Linq.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Reactive.Linq.dll" />
+                </Component>
+                <Component Id="System.Reactive.PlatformServices.dll" Guid="{E06C9203-2709-4EA3-9770-DB5003AF5A95}">
+                    <File Id="System.Reactive.PlatformServices.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Reactive.PlatformServices.dll" />
+                </Component>
+                <Component Id="System.Web.Helpers.dll" Guid="{C7BE39CB-60BE-47AE-AE26-6D2D84C92779}">
+                    <File Id="System.Web.Helpers.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Helpers.dll" />
+                </Component>
+                <Component Id="System.Web.Helpers.xml" Guid="{C010DEA8-2532-4F9B-A045-33CF7C10B110}">
+                    <File Id="System.Web.Helpers.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Helpers.xml" />
+                </Component>
+                <Component Id="System.Web.Http.dll" Guid="{66DCE0E0-7196-4E64-933E-3AA2DB56866D}">
+                    <File Id="System.Web.Http.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Http.dll" />
+                </Component>
+                <!--<Component Id="System.Web.Http.Owin.dll" Guid="{00911001-B7FB-49D0-8AC5-88ECDBD1871A}">
+                    <File Id="System.Web.Http.Owin.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Http.Owin.dll" />
+                </Component>-->
+                <Component Id="System.Web.Http.WebHost.dll" Guid="{7B06D4C1-57B1-4732-BAD1-27D15DDE56C2}">
+                    <File Id="System.Web.Http.WebHost.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Http.WebHost.dll" />
+                </Component>
+                <Component Id="System.Web.Http.WebHost.xml" Guid="{E93EE9C8-FD56-477F-AD5E-497F056D11AE}">
+                    <File Id="System.Web.Http.WebHost.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Http.WebHost.xml" />
+                </Component>
+                <Component Id="System.Web.Http.xml" Guid="{D4116544-DE09-4BEC-8B79-497E38385F5E}">
+                    <File Id="System.Web.Http.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Http.xml" />
+                </Component>
+                <Component Id="System.Web.Mvc.dll" Guid="{7776A633-B151-4F18-8AF3-DF507F3BABE0}">
+                    <File Id="System.Web.Mvc.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Mvc.dll" />
+                </Component>
+                <Component Id="System.Web.Mvc.xml" Guid="{5DE0B6FF-3147-416E-8584-FD579EAF35F2}">
+                    <File Id="System.Web.Mvc.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Mvc.xml" />
+                </Component>
+                <Component Id="System.Web.Optimization.dll" Guid="{6DBB928B-138F-4EDF-BB58-DE35D45F3FC7}">
+                    <File Id="System.Web.Optimization.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Optimization.dll" />
+                </Component>
+                <Component Id="System.Web.Razor.dll" Guid="{8983BD02-BCA8-4ACE-B444-9B1334B5B907}">
+                    <File Id="System.Web.Razor.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Razor.dll" />
+                </Component>
+                <Component Id="System.Web.Razor.xml" Guid="{91C2A8F6-82F8-4560-A35B-2582F215F3AC}">
+                    <File Id="System.Web.Razor.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.Razor.xml" />
+                </Component>
+                <Component Id="System.Web.WebPages.Deployment.dll" Guid="{C03D2E22-FEA7-4656-A514-EE710160FBF2}">
+                    <File Id="System.Web.WebPages.Deployment.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.WebPages.Deployment.dll" />
+                </Component>
+                <Component Id="System.Web.WebPages.Deployment.xml" Guid="{04F984DD-1729-4289-9FA4-C574027147DF}">
+                    <File Id="System.Web.WebPages.Deployment.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.WebPages.Deployment.xml" />
+                </Component>
+                <Component Id="System.Web.WebPages.dll" Guid="{84287A68-534E-44F4-B23E-35FA1F8459CB}">
+                    <File Id="System.Web.WebPages.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.WebPages.dll" />
+                </Component>
+                <Component Id="System.Web.WebPages.Razor.dll" Guid="{5DD196ED-1890-4872-BF38-33F8889A208F}">
+                    <File Id="System.Web.WebPages.Razor.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.WebPages.Razor.dll" />
+                </Component>
+                <Component Id="System.Web.WebPages.Razor.xml" Guid="{BC72FE05-7C5A-40D2-9740-0814F1F9267A}">
+                    <File Id="System.Web.WebPages.Razor.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.WebPages.Razor.xml" />
+                </Component>
+                <Component Id="System.Web.WebPages.xml" Guid="{C311FDF7-D720-4B21-9864-94EAE1E63006}">
+                    <File Id="System.Web.WebPages.xml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\System.Web.WebPages.xml" />
+                </Component>
+                <Component Id="WebGrease.dll" Guid="{81F0F2A2-A401-4373-B596-A003C9D5C810}">
+                    <File Id="WebGrease.dll" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)bin\WebGrease.dll" />
+                </Component>
+            </Directory>
+            <Directory Id="Content" Name="Content">
+                <Component Id="bootstrap_theme.css" Guid="{4AD7E880-958C-4D04-9ED8-AEA75259FDC7}">
+                    <File Id="bootstrap_theme.css" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Content\bootstrap-theme.css" />
+                </Component>
+                <Component Id="bootstrap_theme.min.css" Guid="{1ED43D55-CAD8-4CB2-9A3E-B12992A673A9}">
+                    <File Id="bootstrap_theme.min.css" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Content\bootstrap-theme.min.css" />
+                </Component>
+                <Component Id="bootstrap.css" Guid="{7B7FE2BE-1F4E-495A-847E-1AB26A2DA373}">
+                    <File Id="bootstrap.css" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Content\bootstrap.css" />
+                </Component>
+                <Component Id="bootstrap.min.css" Guid="{BD0E968E-C916-4C7C-BC3C-7FCD414157A7}">
+                    <File Id="bootstrap.min.css" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Content\bootstrap.min.css" />
+                </Component>
+                <Component Id="Site.css" Guid="{FD8080A0-4A62-46E4-9CB5-58236FC75F73}">
+                    <File Id="Site.css" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Content\Site.css" />
+                </Component>
+            </Directory>
+
+
+            <Directory Id="fonts" Name="fonts">
+                <Component Id="glyphicons_halflings_regular.eot" Guid="{2F48021E-86AE-461C-8490-34C948D648A7}">
+                    <File Id="glyphicons_halflings_regular.eot" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)fonts\glyphicons-halflings-regular.eot" />
+                </Component>
+                <Component Id="glyphicons_halflings_regular.svg" Guid="{FC2D1D05-FED7-49B5-B58A-F8588526873F}">
+                    <File Id="glyphicons_halflings_regular.svg" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)fonts\glyphicons-halflings-regular.svg" />
+                </Component>
+                <Component Id="glyphicons_halflings_regular.ttf" Guid="{9429FA34-6E11-4925-BA8B-A517C0AC0267}">
+                    <File Id="glyphicons_halflings_regular.ttf" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)fonts\glyphicons-halflings-regular.ttf" />
+                </Component>
+                <Component Id="glyphicons_halflings_regular.woff" Guid="{A43A485A-6983-4BEC-BAAB-3D92EA15DE2F}">
+                    <File Id="glyphicons_halflings_regular.woff" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)fonts\glyphicons-halflings-regular.woff" />
+                </Component>
+            </Directory>
+
+
+            <Directory Id="Scripts" Name="Scripts">
+                <Component Id="bootstrap.js" Guid="{7C414B3B-B129-4CD8-B8AC-27E2BFB9D204}">
+                    <File Id="bootstrap.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\bootstrap.js" />
+                </Component>
+                <Component Id="bootstrap.min.js" Guid="{98B9D02F-6BC0-4842-8FE5-926D279E6E7E}">
+                    <File Id="bootstrap.min.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\bootstrap.min.js" />
+                </Component>
+                <Component Id="brush.js" Guid="{5675CA6F-B962-4F6F-8872-70AC28777E19}">
+                    <File Id="brush.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\brush.js" />
+                </Component>
+                <Component Id="corellation.js" Guid="{8D1CBB75-F14D-40C8-9EF2-76D8AEEB6AB4}">
+                    <File Id="corellation.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\corellation.js" />
+                </Component>
+                <Component Id="d3.js" Guid="{1ED3B432-1298-459E-AA03-BA291A88A7AF}">
+                    <File Id="d3.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\d3.js" />
+                </Component>
+                <Component Id="d3.min.js" Guid="{98FE95C0-B5D0-46C4-AC37-9C58EA1D4C8F}">
+                    <File Id="d3.min.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\d3.min.js" />
+                </Component>
+                <Component Id="dependencyWheel.js" Guid="{583A0DEA-DE46-4C7B-B1B9-FCDD20624187}">
+                    <File Id="dependencyWheel.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\dependencyWheel.js" />
+                </Component>
+                <Component Id="jquery_1.9.1.intellisense.js" Guid="{B4C3C7C4-65B6-4672-BBE1-B8923B5A0826}">
+                    <File Id="jquery_1.9.1.intellisense.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\jquery-2.1.3.intellisense.js" />
+                </Component>
+                <Component Id="jquery_1.9.1.js" Guid="{AD7CD2C8-FB87-428D-8FB6-79B71B256CDC}">
+                    <File Id="jquery_1.9.1.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\jquery-2.1.3.js" />
+                </Component>
+                <Component Id="jquery_1.9.1.min.js" Guid="{75B881B7-E9D9-4627-9ECE-44FC29FF273B}">
+                    <File Id="jquery_1.9.1.min.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\jquery-2.1.3.min.js" />
+                </Component>
+                <Component Id="jquery_1.9.1.min.map" Guid="{B74B1DEE-966E-44F7-A0AB-5329F62FCDF9}">
+                    <File Id="jquery_1.9.1.min.map" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\jquery-2.1.3.min.map" />
+                </Component>
+                <Component Id="jquery.signalR_2.2.0.js" Guid="{92AC1A66-9EAB-4A06-BA69-43CACF54BE5D}">
+                    <File Id="jquery.signalR_2.2.0.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\jquery.signalR-2.2.0.js" />
+                </Component>
+                <Component Id="jquery.signalR_2.2.0.min.js" Guid="{45852C0B-4CA7-41FC-8AC3-DC78354D087F}">
+                    <File Id="jquery.signalR_2.2.0.min.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\jquery.signalR-2.2.0.min.js" />
+                </Component>
+                <Component Id="legend.js" Guid="{0545CA71-EED4-4C6C-B151-315DA62E5BC1}">
+                    <File Id="legend.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\legend.js" />
+                </Component>
+                <Component Id="modernizr_2.6.2.js" Guid="{94EE511A-8EA3-42A5-BAE1-312D2825D205}">
+                    <File Id="modernizr_2.6.2.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\modernizr-2.8.3.js" />
+                </Component>
+                <Component Id="randomData.js" Guid="{274BDECF-AFC5-4CCE-BA9F-E881F6075E7D}">
+                    <File Id="randomData.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\randomData.js" />
+                </Component>
+                <Component Id="respond.js" Guid="{A7FCD593-62CC-4363-93E3-1589E2590EEB}">
+                    <File Id="respond.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\respond.js" />
+                </Component>
+                <Component Id="respond.min.js" Guid="{6A24A88F-B34B-4363-9EAB-61DDA884EC14}">
+                    <File Id="respond.min.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\respond.min.js" />
+                </Component>
+                <Component Id="runningbuildstatus.js" Guid="{6F9F402A-1CE8-48E9-BD19-21FF433FA0BA}">
+                    <File Id="runningbuildstatus.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\runningbuildstatus.js" />
+                </Component>
+                <Component Id="Scatter.js" Guid="{922614DB-29DE-4AE0-89B1-887B2C0592B5}">
+                    <File Id="Scatter.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\Scatter.js" />
+                </Component>
+                <Component Id="updatebuildschart.js" Guid="{CD32DB81-8AE1-4892-A00F-B05AE98F9AD0}">
+                    <File Id="updatebuildschart.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\updatebuildschart.js" />
+                </Component>
+                <Component Id="_references.js" Guid="{4A95E988-6446-4930-AC19-6B662076B26B}">
+                    <File Id="_references.js" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Scripts\_references.js" />
+                </Component>
+            </Directory>
+
+            <Directory Id="Views_1" Name="Views">
+                <Component Id="Web.config_2" Guid="{D555AD98-7C03-4B61-8070-C3205B5AA2BF}">
+                    <File Id="Web.config_2" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Views\Web.config" />
+                </Component>
+                <Component Id="_ViewStart.cshtml_1" Guid="{5D32ED10-6A5A-4D1F-8910-0ADBD0EE1B70}">
+                    <File Id="_ViewStart.cshtml_1" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Views\_ViewStart.cshtml" />
+                </Component>
+                <Directory Id="Home" Name="Home">
+                    <Component Id="DependencyWheel.cshtml" Guid="{4710B6FD-9C71-434B-BD88-B38185F9924A}">
+                        <File Id="DependencyWheel.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Views\Home\DependencyWheel.cshtml" />
+                    </Component>
+                    <Component Id="Index.cshtml_1" Guid="{D43A4788-FE6A-4FE1-831F-1D408C42D1FC}">
+                        <File Id="Index.cshtml_1" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Views\Home\Index.cshtml" />
+                    </Component>
+                </Directory>
+                <Directory Id="Shared_1" Name="Shared">
+                    <Component Id="Error.cshtml" Guid="{5B84DEFD-1911-48D3-9CA0-47D0E661ECE6}">
+                        <File Id="Error.cshtml" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Views\Shared\Error.cshtml" />
+                    </Component>
+                    <Component Id="_Layout.cshtml_1" Guid="{B5E42296-32C9-4418-82CF-DF445D009FCD}">
+                        <File Id="_Layout.cshtml_1" KeyPath="yes" Source="$(var.EntitySandbox.ProjectDir)Views\Shared\_Layout.cshtml" />
+                    </Component>
+                </Directory>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="EntitySandboxComponent">
+
+            <ComponentRef Id="favicon.ico" />
+            <ComponentRef Id="Global.asax" />
+
+
+            <ComponentRef Id="Project_Readme.html" />
+            <ComponentRef Id="Web.config" />
+
+            <ComponentRef Id="Web.config_1" />
+            <ComponentRef Id="_ViewStart.cshtml" />
+            <ComponentRef Id="Api.cshtml" />
+            <ComponentRef Id="Index.cshtml" />
+            <ComponentRef Id="ResourceModel.cshtml" />
+            <ComponentRef Id="ApiGroup.cshtml" />
+            <ComponentRef Id="CollectionModelDescription.cshtml" />
+            <ComponentRef Id="ComplexTypeModelDescription.cshtml" />
+            <ComponentRef Id="DictionaryModelDescription.cshtml" />
+            <ComponentRef Id="EnumTypeModelDescription.cshtml" />
+            <ComponentRef Id="HelpPageApiModel.cshtml" />
+            <ComponentRef Id="ImageSample.cshtml" />
+            <ComponentRef Id="InvalidSample.cshtml" />
+            <ComponentRef Id="KeyValuePairModelDescription.cshtml" />
+            <ComponentRef Id="ModelDescriptionLink.cshtml" />
+            <ComponentRef Id="Parameters.cshtml" />
+            <ComponentRef Id="Samples.cshtml" />
+            <ComponentRef Id="SimpleTypeModelDescription.cshtml" />
+            <ComponentRef Id="TextSample.cshtml" />
+            <ComponentRef Id="_Layout.cshtml" />
+            <ComponentRef Id="Antlr3.Runtime.dll" />
+            <ComponentRef Id="Antlr3.Runtime.pdb" />
+            <ComponentRef Id="dotless.Core.dll" />
+            <ComponentRef Id="EntityFramework.dll" />
+            <ComponentRef Id="EntityFramework.SqlServer.dll" />
+            <ComponentRef Id="EntitySandbox.dll" />
+            <ComponentRef Id="EntitySandbox.dll.config" />
+            <ComponentRef Id="EntitySandbox.pdb" />
+            <ComponentRef Id="Microsoft.AspNet.SignalR.Core.dll" />
+            <ComponentRef Id="Microsoft.AspNet.SignalR.SystemWeb.dll" />
+            <ComponentRef Id="Microsoft.Owin.dll" />
+            <ComponentRef Id="Microsoft.Owin.Host.SystemWeb.dll" />
+            <ComponentRef Id="Microsoft.Owin.Host.SystemWeb.xml" />
+            <ComponentRef Id="Microsoft.Owin.Security.dll" />
+            <ComponentRef Id="Microsoft.Owin.Security.xml" />
+            <ComponentRef Id="Microsoft.Owin.xml" />
+            <ComponentRef Id="Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll" />
+            <ComponentRef Id="Microsoft.Web.Infrastructure.dll" />
+            <ComponentRef Id="Microsoft.WITDataStore.dll" />
+            <ComponentRef Id="Newtonsoft.Json.dll" />
+            <ComponentRef Id="Newtonsoft.Json.xml" />
+            <ComponentRef Id="Owin.dll" />
+            <ComponentRef Id="System.Net.Http.Formatting.dll" />
+            <ComponentRef Id="System.Net.Http.Formatting.xml" />
+            <ComponentRef Id="System.Reactive.Core.dll" />
+            <ComponentRef Id="System.Reactive.Interfaces.dll" />
+            <ComponentRef Id="System.Reactive.Linq.dll" />
+            <ComponentRef Id="System.Reactive.PlatformServices.dll" />
+
+            <ComponentRef Id="System.Web.Helpers.dll" />
+            <ComponentRef Id="System.Web.Helpers.xml" />
+            <ComponentRef Id="System.Web.Http.dll" />
+            <!--<ComponentRef Id="System.Web.Http.Owin.dll" />-->
+
+            <ComponentRef Id="System.Web.Http.WebHost.dll" />
+            <ComponentRef Id="System.Web.Http.WebHost.xml" />
+            <ComponentRef Id="System.Web.Http.xml" />
+            <ComponentRef Id="System.Web.Mvc.dll" />
+            <ComponentRef Id="System.Web.Mvc.xml" />
+            <ComponentRef Id="System.Web.Optimization.dll" />
+
+            <ComponentRef Id="System.Web.Razor.dll" />
+            <ComponentRef Id="System.Web.Razor.xml" />
+            <ComponentRef Id="System.Web.WebPages.Deployment.dll" />
+            <ComponentRef Id="System.Web.WebPages.Deployment.xml" />
+            <ComponentRef Id="System.Web.WebPages.dll" />
+            <ComponentRef Id="System.Web.WebPages.Razor.dll" />
+            <ComponentRef Id="System.Web.WebPages.Razor.xml" />
+            <ComponentRef Id="System.Web.WebPages.xml" />
+            <ComponentRef Id="WebGrease.dll" />
+            <ComponentRef Id="bootstrap_theme.css" />
+            <ComponentRef Id="bootstrap_theme.min.css" />
+            <ComponentRef Id="bootstrap.css" />
+            <ComponentRef Id="bootstrap.min.css" />
+            <ComponentRef Id="Site.css" />
+            <ComponentRef Id="glyphicons_halflings_regular.eot" />
+            <ComponentRef Id="glyphicons_halflings_regular.svg" />
+            <ComponentRef Id="glyphicons_halflings_regular.ttf" />
+            <ComponentRef Id="glyphicons_halflings_regular.woff" />
+
+            <ComponentRef Id="bootstrap.js" />
+            <ComponentRef Id="bootstrap.min.js" />
+            <ComponentRef Id="brush.js" />
+            <ComponentRef Id="corellation.js" />
+            <ComponentRef Id="d3.js" />
+            <ComponentRef Id="d3.min.js" />
+            <ComponentRef Id="dependencyWheel.js" />
+            <ComponentRef Id="jquery_1.9.1.intellisense.js" />
+            <ComponentRef Id="jquery_1.9.1.js" />
+            <ComponentRef Id="jquery_1.9.1.min.js" />
+            <ComponentRef Id="jquery_1.9.1.min.map" />
+            <ComponentRef Id="jquery.signalR_2.2.0.js" />
+            <ComponentRef Id="jquery.signalR_2.2.0.min.js" />
+            <ComponentRef Id="legend.js" />
+            <ComponentRef Id="modernizr_2.6.2.js" />
+            <ComponentRef Id="randomData.js" />
+            <ComponentRef Id="respond.js" />
+            <ComponentRef Id="respond.min.js" />
+            <ComponentRef Id="runningbuildstatus.js" />
+            <ComponentRef Id="Scatter.js" />
+            <ComponentRef Id="updatebuildschart.js" />
+            <ComponentRef Id="_references.js" />
+            <ComponentRef Id="Web.config_2" />
+            <ComponentRef Id="_ViewStart.cshtml_1" />
+            <ComponentRef Id="DependencyWheel.cshtml" />
+            <ComponentRef Id="Index.cshtml_1" />
+            <ComponentRef Id="Error.cshtml" />
+            <ComponentRef Id="_Layout.cshtml_1" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

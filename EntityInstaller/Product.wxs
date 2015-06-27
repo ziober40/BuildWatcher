@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:iis="http://schemas.microsoft.com/wix/IIsExtension" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" >
+  <?include Includes\Dependencies.wxi?>
+  <Product Id="*" Name="GM&amp;T TFS Build Watcher" Language="1033" Version="1.0.0.0"  Manufacturer="Gazprom Marketing &amp; Trading" UpgradeCode="8625c116-6a32-4544-9882-31c0610c8dab">
+		<Package InstallerVersion="200" Compressed="yes"  />
+    <MajorUpgrade AllowSameVersionUpgrades="yes" DowngradeErrorMessage="!(loc.LaterVersionAlreadyInstalled)"/>
+
+    <PropertyRef Id="NETFRAMEWORK40FULL"/>
+    <Condition Message="!(loc.DotNetFrameworkIsRequired)">
+      Installed OR NETFRAMEWORK40FULL
+    </Condition>
+
+    <Condition Message="!(loc.AdminRequired)">Privileged</Condition>
+
+    <Property Id="ALLUSERS" Value="1" />
+    <Property Id="WEB.SITENAME" Value="Default Web Site" />
+    <Property Id="WEB.PORT" Value="80" />
+
+    <Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLLOCATION" Name="BuildWatcher">
+          <Directory Id="ENTITYSANDBOXFOLDER" Name="Web" />
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="ENTITYSANDBOXFOLDER">
+      <Component Id="BuildWatcherWebSiteAppPool" Guid="" KeyPath="yes">
+        <iis:WebAppPool Id="BuildWatcherWebSiteAppPool"
+                        Name="BuildWatcherWebSite"
+                        Identity="applicationPoolIdentity"
+                         ManagedPipelineMode="Integrated"
+                        ManagedRuntimeVersion="v4.0" />
+      </Component>
+    </DirectoryRef>
+
+ <Component Id="InstallWebsite" Guid="" KeyPath="yes"  Directory="ENTITYSANDBOXFOLDER">
+    <iis:WebSite Id="BuildWatcherWebSite" Description="Build Watcher Website" Directory="ENTITYSANDBOXFOLDER">
+      <iis:WebAddress Id="BuildWatcher" Port="80" />
+      <iis:WebApplication Id="BuildWatcherWebSiteApplication" Name="[BuildWatcherWebSite][WEBSITE_ID]" WebAppPool="BuildWatcherWebSiteAppPool"></iis:WebApplication>
+    </iis:WebSite>
+  </Component>
+
+    <ComponentGroup Id="IssConfiguration">
+      <ComponentRef Id="InstallWebsite" />
+      <ComponentRef Id="BuildWatcherWebSiteAppPool" />
+    </ComponentGroup>
+    
+   <Feature Id="ProductFeature" Title="BuildWatcherInstaller" Level="1">
+      <ComponentGroupRef Id="EntitySandboxComponent" />
+      <ComponentGroupRef Id="IssConfiguration" />
+    </Feature>
+
+    <UIRef Id="WixUI_FeatureTree" />
+
+  </Product>
+</Wix>
